@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.animation.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:background="#ff0000"/>
+
+    <Button
+        android:id="@+id/alphaButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试alpha动画效果"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/rotateButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试rotate动画效果"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/scaleButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试scale动画效果"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/translateButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试translate动画效果"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="alpha+rotate测试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="测试Frame-by-Frame帧动画"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/iv_frame"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:background="@drawable/icon6"/>
+
+</LinearLayout>

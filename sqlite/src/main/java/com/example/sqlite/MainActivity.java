@@ -82,9 +82,11 @@ public class MainActivity extends AppCompatActivity {
             SQLiteDatabase db = dbHelper.getReadableDatabase();
             Cursor cursor = db.query("user", new String[]{"id", "name"}, "id=?", new String[]{"1"}, null, null, null);
             while (cursor.moveToNext()) {
+                // 注意这个地方，不是直接用列名，而是用该列的列号，奇怪
                 String name = cursor.getString(cursor.getColumnIndex("name"));
                 System.out.println("query--->" + name);
             }
+            cursor.close();
         }
     }
 

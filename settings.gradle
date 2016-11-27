@@ -1,1 +1,1 @@
-include ':app', ':sqlite', ':fastjson', ':andbasetest', ':animation', ':radio', ':progressbar', ':listview'
+include ':app', ':sqlite', ':fastjson', ':andbasetest', ':animation', ':radio', ':progressbar', ':listview', ':contentprovider'

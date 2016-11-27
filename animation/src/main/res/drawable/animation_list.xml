@@ -6,4 +6,5 @@
     <item android:drawable="@drawable/icon4" android:duration="500"/>
     <item android:drawable="@drawable/icon5" android:duration="500"/>
     <item android:drawable="@drawable/icon6" android:duration="500"/>
+    <!--帧动画的执行顺序，就是一个animation-list而已，很简单-->
 </animation-list>

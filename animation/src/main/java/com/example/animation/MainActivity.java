@@ -21,6 +21,7 @@ import android.widget.ImageView;
  * 3.往AnimationSet动画组，添加动画，同时执行（如果想顺序执行，为下一个动画添加setStartOffset）
  * 4.Interpolator插入器加速/减速的使用，Java中AnimationSet(true)和xml中设置方式
  * 5.帧动画Frame-by-Frame动画，AnimationDrawable-start/stop
+ * 6.activity和activity之间跳转的动画
  */
 public class MainActivity extends AppCompatActivity {
 

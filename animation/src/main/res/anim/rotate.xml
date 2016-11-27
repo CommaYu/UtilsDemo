@@ -6,4 +6,5 @@
         android:pivotX="0%"
         android:pivotY="50%"
         android:toDegrees="360" />
+    <!--XY设置中，50代表绝对距离，50%代表想对自己距离，50%p代表相对父控件距离-->
 </set>

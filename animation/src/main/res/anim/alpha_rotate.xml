@@ -13,4 +13,5 @@
         android:pivotX="50%"
         android:pivotY="50%"
         android:toDegrees="360" />
+    <!--组合动画，是同时执行的，如果要顺序执行需要设置android:startOffset=""-->
 </set>

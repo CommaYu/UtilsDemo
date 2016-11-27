@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * 了解一下占位符
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

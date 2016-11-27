@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/list_anim"
+    android:animationOrder="normal"
+    android:delay="0.5" />
+
+    <!--android:delay => 单位是“秒”，下一个view的延迟时间-->
+    <!--android:animationOrder => random随机\normal正序\reverse倒序，ViewGroup中view的显示顺序（Linearlayout中Button、ImageView等显示顺序）-->

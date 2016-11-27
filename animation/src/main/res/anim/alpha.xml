@@ -4,4 +4,5 @@
     <alpha
         android:fromAlpha="1.0"
         android:toAlpha="0.0" />
+    <!--淡出alpha动画1-0，从实体到透明-->
 </set>

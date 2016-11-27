@@ -67,4 +67,16 @@
         android:layout_height="wrap_content"
         tools:background="@drawable/icon6"/>
 
+    <Button
+        android:text="综合应用例子"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="综合应用例子2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+
 </LinearLayout>
